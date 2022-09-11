@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Interactive card details form</title>
 
@@ -15,33 +16,56 @@
   </style>
 </head>
 <body>
+  <header>
+    <div class="background"> </div>
 
-  0000 0000 0000 0000
+  </header>
+
+  <form>
+    <div class="block">
+      <label for="name">Cardholder Name</label>
+      <input type="text" name="user_name" id="name" placeholder="e.g. Jane Appleseed" required>
+    </div>
+
+    <div class="block">
+      <label for="number">Card Number</label>
+      <input type="number" name="user_number" id="number" placeholder="e.g. 1234567890" required>
+    </div>  
+
+    <div class="block"> 
+      <label for="date">Exp. Date (MM/YY)</label>
+      <input type="date" id="date" placeholder="" required>
+    </div> 
+
+    <div class="block bttn">
+    <button>Confirm</button>
+  </div>
+
+  </form>
+
+<!-- This will be inside the credit card -->
+  <!-- 0000 0000 0000 0000
   Jane Appleseed
   00/00
 
   000
 
-  Cardholder Name
-  e.g. Jane Appleseed
 
-  Card Number
-  e.g. 1234 5678 9123 0000
 
   Exp. Date (MM/YY)
   MM
   YY
 
   CVC
-  e.g. 123
+  e.g. 123 -->
 
-  Confirm
+
 
   <!-- Completed state start -->
 
-  Thank you!
+  <!-- Thank you!
   We've added your card details
-  Continue
+  Continue -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

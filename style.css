@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.background {
+    background: url(images/bg-main-mobile.png);
+    background-size: cover;
+    width: 100vw;
+    height: 250px;
+}
+
+
+/* -----form-------- */
+
+form {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    
+}
+button {
+    padding: 10px 0;
+}
+input {
+    padding: 10px 0;
+}
